@@ -223,8 +223,8 @@
 				TargetAttributes = {
 					4B6DDDF11E51B2A900986862 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = NE4EL665R3;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = TRJ8UUB67F;
+						ProvisioningStyle = Automatic;
 					};
 					4B6DDE0A1E51B2A900986862 = {
 						CreatedOnToolsVersion = 8.2;
@@ -370,6 +370,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Available;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -389,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,6 +418,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = Available;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -430,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -441,13 +443,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NE4EL665R3;
+				CODE_SIGN_IDENTITY = Availabel;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TRJ8UUB67F;
 				INFOPLIST_FILE = RSVedioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.RSVedioRecorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spaceodigicom.instamemegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b600eb7d-1a88-4471-94fa-c55fa339ad27";
-				PROVISIONING_PROFILE_SPECIFIER = "Infocom Development 3 Oct";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
@@ -455,13 +461,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NE4EL665R3;
+				CODE_SIGN_IDENTITY = Availabel;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TRJ8UUB67F;
 				INFOPLIST_FILE = RSVedioRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.RSVedioRecorder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spaceodigicom.instamemegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b600eb7d-1a88-4471-94fa-c55fa339ad27";
-				PROVISIONING_PROFILE_SPECIFIER = "Infocom Development 3 Oct";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
@@ -530,6 +540,7 @@
 				4B6DDE211E51B2A900986862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B6DDE221E51B2A900986862 /* Build configuration list for PBXNativeTarget "RSVedioRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +549,7 @@
 				4B6DDE241E51B2A900986862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B6DDE251E51B2A900986862 /* Build configuration list for PBXNativeTarget "RSVedioRecorderUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +558,7 @@
 				4B6DDE271E51B2A900986862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
