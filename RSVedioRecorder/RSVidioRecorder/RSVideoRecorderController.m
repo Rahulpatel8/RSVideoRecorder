@@ -50,10 +50,9 @@
     videoRecorder.sourceType = UIImagePickerControllerSourceTypeCamera;
     videoRecorder.cameraDevice = UIImagePickerControllerCameraDeviceRear;
     videoRecorder.mediaTypes = @[(NSString*)kUTTypeMovie];
-    videoRecorder.videoQuality = UIImagePickerControllerQualityTypeMedium;
+    videoRecorder.videoQuality = UIImagePickerControllerQualityTypeHigh;
     videoRecorder.cameraCaptureMode = UIImagePickerControllerCameraCaptureModeVideo;
     videoRecorder.showsCameraControls = true;
-    [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger:UIInterfaceOrientationPortrait] forKey:@"orientation"];
     if ([UIImagePickerController isFlashAvailableForCameraDevice:device]) {
         videoRecorder.cameraFlashMode = UIImagePickerControllerCameraFlashModeAuto;
     }
@@ -68,11 +67,6 @@
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     self.completion(nil,false);
     [picker dismissViewControllerAnimated:true completion:nil];
-}
-
--(NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
-{
-    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (void)didReceiveMemoryWarning {
